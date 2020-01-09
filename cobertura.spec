@@ -1,6 +1,6 @@
 Name:           cobertura
 Version:        1.9.4.1
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Java tool that calculates the percentage of code accessed by tests
 
 # ASL 2.0: src/net/sourceforge/cobertura/webapp/web.xml
@@ -131,6 +131,9 @@ cp -rp build/api/* %{buildroot}%{_javadocdir}/%{name}
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.9.4.1-9
+- Mass rebuild 2013-12-27
+
 * Fri Aug 02 2013 Michal Srb <msrb@redhat.com> - 1.9.4.1-8
 - Add create-tarball.sh script to SRPM
 
